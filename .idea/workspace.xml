@@ -5,15 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9b7bc24-b0cd-494e-b757-4e4fea4a8bdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/GetImportance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/InsertionSortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/AverageOfLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/BSTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/CanJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/CountNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/Flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/HammingWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/HasPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/IsSameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/IsSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/MaxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/MaxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/MinimumTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/RangeBitwiseAnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/RightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/Rob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/Rotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/SingleNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/SolveNQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/SortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/ZigzagLevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_10CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_11ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_122MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_123MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_12LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_13LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_322CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_7WaysToStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_8MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/topinterview150/_9MaxProduct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +102,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/lcode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/workspace/lcode/src/main/java/org/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\lcode\src\main\java\org\example" />
       <recent name="C:\myworkspace\lcode\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.RemoveDuplicates">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.test.BubbleSort" />
       <module name="lcode.main" />
@@ -93,8 +138,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.topinterview150.MaxDepth" />
+      <module name="lcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.topinterview150.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.topinterview150.RemoveDuplicates" />
+      <module name="lcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.topinterview150.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.MaxDepth" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.BubbleSort" />
       </list>
@@ -115,8 +188,16 @@
       <workItem from="1724764862113" duration="397000" />
       <workItem from="1724765322755" duration="72000" />
       <workItem from="1724765409654" duration="198000" />
-      <workItem from="1724765623285" duration="1171000" />
+      <workItem from="1724765623285" duration="1525000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1724766809082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724766809082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +281,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
