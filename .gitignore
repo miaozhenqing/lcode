@@ -1,8 +1,21 @@
-.gradle
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Gradle (leftover, in case IDEA regenerates) ###
+.gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+
+### Claude Code ###
+.claude/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -40,3 +53,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/
