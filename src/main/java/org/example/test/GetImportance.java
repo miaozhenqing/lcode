@@ -1,6 +1,6 @@
 package org.example.test;
 
-import com.google.common.collect.Lists;
+import org.example.common.CommonUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,12 +30,12 @@ public class GetImportance {
     public static void main(String[] args) {
         //输入：employees = [[1,5,[2,3]],[2,3,[]],[3,3,[]]], id = 1
         //输出：11
-        List<Employee> employees = Lists.newArrayList();
-        Employee employee = new Employee(1, 5, Lists.newArrayList(2, 3));
+        List<Employee> employees = new ArrayList<>();
+        Employee employee = new Employee(1, 5, CommonUtil.listOf(2, 3));
         employees.add(employee);
-        employee = new Employee(2, 3, Lists.newArrayList());
+        employee = new Employee(2, 3, new ArrayList<>());
         employees.add(employee);
-        employee = new Employee(3, 3, Lists.newArrayList());
+        employee = new Employee(3, 3, new ArrayList<>());
         employees.add(employee);
         System.out.println(new GetImportance().getImportance(employees, 1));//11
     }

@@ -1,6 +1,7 @@
 package org.example.test;
 
 import java.util.Arrays;
+import org.example.common.CommonUtil;
 
 public class SelectSort {
     private static void selectSort(int[] array) {
@@ -12,17 +13,9 @@ public class SelectSort {
                 }
             }
             if (minIndex != i) {
-                swap(array, i, minIndex);
+                CommonUtil.swap(array, i, minIndex);
             }
         }
-    }
-
-    private static void swap(int[] array, int i, int j) {
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-//        System.out.println(Arrays.toString(array));
-//        System.out.println("----------------");
     }
 
     public static void main(String[] args) {

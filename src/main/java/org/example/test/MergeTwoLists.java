@@ -1,9 +1,6 @@
 package org.example.test;
 
-import com.alibaba.fastjson.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
+import org.example.common.ListNode;
 
 public class MergeTwoLists {
 
@@ -72,34 +69,6 @@ public class MergeTwoLists {
         ListNode listNode222 = new ListNode(1, new ListNode(3, new ListNode(4)));
         System.out.println(mergeTwoLists3(listNode111, listNode222));//[1,1,2,3,4,4]
 
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            List<Integer> list = new ArrayList<>();
-            ListNode temp = this;
-            while (temp != null) {
-                list.add(temp.val);
-                temp = temp.next;
-            }
-            return JSONObject.toJSONString(list);
-        }
     }
 
 }

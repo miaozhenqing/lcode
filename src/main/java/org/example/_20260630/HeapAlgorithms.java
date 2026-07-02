@@ -1,7 +1,7 @@
 package org.example._20260630;
 
-import org.example.CommonUtil;
-import org.example.test.ListNode;
+import org.example.common.CommonUtil;
+import org.example.common.ListNode;
 
 import java.util.Comparator;
 import java.util.HashMap;

@@ -1,5 +1,6 @@
 package org.example.test;
 
+import org.example.common.TreeNode;
 import java.util.Arrays;
 
 public class BuildTree {

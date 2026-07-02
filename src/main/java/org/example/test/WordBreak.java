@@ -1,7 +1,6 @@
 package org.example.test;
 
-import com.google.common.collect.Lists;
-
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -27,7 +26,7 @@ public class WordBreak {
 
     public static void main(String[] args) {
 
-        System.out.println(new WordBreak().wordBreak("leetcode", Lists.newArrayList("leet", "code")));//true
-        System.out.println(new WordBreak().wordBreak("applepenapple", Lists.newArrayList("apple", "pen")));//true
+        System.out.println(new WordBreak().wordBreak("leetcode", Arrays.asList("leet", "code")));//true
+        System.out.println(new WordBreak().wordBreak("applepenapple", Arrays.asList("apple", "pen")));//true
     }
 }

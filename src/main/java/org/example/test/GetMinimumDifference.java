@@ -1,5 +1,7 @@
 package org.example.test;
 
+import org.example.common.TreeNode;
+
 public class GetMinimumDifference {
     private TreeNode prevNode = null;
     private int minDiff = Integer.MAX_VALUE;

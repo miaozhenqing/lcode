@@ -1,5 +1,7 @@
 package org.example.topinterview150;
 
+import org.example.common.TreeNode;
+
 public class SortedArrayToBST {
     public TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0) {

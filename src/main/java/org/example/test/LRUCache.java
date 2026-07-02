@@ -1,5 +1,6 @@
 package org.example.test;
 
+import org.example.common.DLinkedNode;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -63,19 +64,7 @@ public class LRUCache {
         return node;
     }
 
-    private static class DLinkedNode {
-        int key;
-        int value;
-        DLinkedNode prev;
-        DLinkedNode next;
 
-        DLinkedNode() {}
-
-        DLinkedNode(int key, int value) {
-            this.key = key;
-            this.value = value;
-        }
-    }
 
     public static void main(String[] args) {
         LRUCache cache = new LRUCache(2);

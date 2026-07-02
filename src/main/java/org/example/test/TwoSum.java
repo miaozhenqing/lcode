@@ -1,8 +1,7 @@
 package org.example.test;
 
 
-import com.alibaba.fastjson.JSON;
-
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,6 +33,6 @@ public class TwoSum {
 
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
-        System.out.println(JSON.toJSONString(twoSum(nums, 22)));
+        System.out.println(Arrays.toString(twoSum(nums, 22)));
     }
 }

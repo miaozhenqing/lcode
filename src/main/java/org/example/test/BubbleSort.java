@@ -1,5 +1,7 @@
 package org.example.test;
 
+import org.example.common.CommonUtil;
+
 public class BubbleSort {//n^2
     private static void bubbleSort(int[] array) {
         if (array == null || array.length == 0 || array.length == 1)
@@ -11,7 +13,7 @@ public class BubbleSort {//n^2
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
                 }
-                doPrint(array);
+                CommonUtil.printArray(array);
             }
             System.out.println("-----------------");
         }
@@ -20,14 +22,7 @@ public class BubbleSort {//n^2
     public static void main(String[] args) {
         int[] array = new int[]{ 8,7,6,5,4};
         bubbleSort(array);
-        doPrint(array);
-    }
-
-    private static void doPrint(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.println();
+        CommonUtil.printArray(array);
     }
 
 

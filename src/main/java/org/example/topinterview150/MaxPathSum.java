@@ -1,5 +1,7 @@
 package org.example.topinterview150;
 
+import org.example.common.TreeNode;
+
 public class MaxPathSum {
     int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {

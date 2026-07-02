@@ -1,5 +1,7 @@
 package org.example.test;
 
+import org.example.common.TreeNode;
+
 public class IsValidBST {
     private long pre = Long.MIN_VALUE;
 

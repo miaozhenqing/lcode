@@ -1,8 +1,6 @@
 package org.example.test;
 
 
-import com.alibaba.fastjson.JSONObject;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -37,16 +35,16 @@ public class Merge {
 
     public static void main(String[] args) {
         int[][] array = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        System.out.println(JSONObject.toJSONString(merge(array)));//[[1,6],[8,10],[15,18]]
+        System.out.println(Arrays.deepToString(merge(array)));//[[1,6],[8,10],[15,18]]
         int[][] array2 = {{1, 4}, {4, 5}};
-        System.out.println(JSONObject.toJSONString(merge(array2)));//[[1,5]]
+        System.out.println(Arrays.deepToString(merge(array2)));//[[1,5]]
         int[][] array3 = {};
-        System.out.println(JSONObject.toJSONString(merge(array3)));//[[]]
+        System.out.println(Arrays.deepToString(merge(array3)));//[[]]
         int[][] array4 = {{1, 3}};
-        System.out.println(JSONObject.toJSONString(merge(array4)));//[[1,3]]
+        System.out.println(Arrays.deepToString(merge(array4)));//[[1,3]]
         int[][] array5 = {{1, 4}, {5, 6}};
-        System.out.println(JSONObject.toJSONString(merge(array5)));//[[1,4],[5,6]]
+        System.out.println(Arrays.deepToString(merge(array5)));//[[1,4],[5,6]]
         int[][] array6 = {{1, 4}, {2, 3}};
-        System.out.println(JSONObject.toJSONString(merge(array6)));//[[1,4]]
+        System.out.println(Arrays.deepToString(merge(array6)));//[[1,4]]
     }
 }

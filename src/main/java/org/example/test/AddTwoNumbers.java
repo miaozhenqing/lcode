@@ -1,9 +1,6 @@
 package org.example.test;
 
-import com.alibaba.fastjson.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
+import org.example.common.ListNode;
 
 public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -62,34 +59,6 @@ public class AddTwoNumbers {
         System.out.println(addTwoNumbers(listNode1111, listNode2222));//[0]
 
 
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            List<Integer> list = new ArrayList<>();
-            ListNode temp = this;
-            while (temp != null) {
-                list.add(temp.val);
-                temp = temp.next;
-            }
-            return JSONObject.toJSONString(list);
-        }
     }
 
 }

@@ -1,5 +1,7 @@
 package org.example.test;
 
+import org.example.common.ListNode;
+
 public class HasCycle {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {

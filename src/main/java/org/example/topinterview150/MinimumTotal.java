@@ -1,6 +1,6 @@
 package org.example.topinterview150;
 
-import com.google.common.collect.Lists;
+import org.example.common.CommonUtil;
 
 import java.util.List;
 
@@ -45,8 +45,11 @@ public class MinimumTotal {
     }
 
     public static void main(String[] args) {
-        List<List<Integer>> triangle = Lists.newArrayList(Lists.newArrayList(2)
-                , Lists.newArrayList(3, 4), Lists.newArrayList(6, 5, 7), Lists.newArrayList(4, 1, 8, 3));
+        List<List<Integer>> triangle = CommonUtil.listOf(
+                CommonUtil.listOf(2),
+                CommonUtil.listOf(3, 4),
+                CommonUtil.listOf(6, 5, 7),
+                CommonUtil.listOf(4, 1, 8, 3));
         System.out.println(new MinimumTotal().minimumTotal(triangle));
     }
 }

@@ -1,5 +1,7 @@
 package org.example.test;
 
+import org.example.common.TreeNode;
+
 public class MirrorTree {
     public TreeNode mirrorTree(TreeNode root) {
         if (root == null) {

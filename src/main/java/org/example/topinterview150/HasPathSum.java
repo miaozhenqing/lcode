@@ -1,5 +1,7 @@
 package org.example.topinterview150;
 
+import org.example.common.TreeNode;
+
 public class HasPathSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) {

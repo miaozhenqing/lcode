@@ -1,5 +1,7 @@
 package org.example.topinterview150;
 
+import org.example.common.TreeNode;
+
 public class Flatten {
     public void flatten(TreeNode root) {
         if (root == null) {

@@ -1,6 +1,6 @@
 package org.example.test;
 
-import com.alibaba.fastjson.JSON;
+import java.util.Arrays;
 
 /**
  * 输入: nums = [1,2,3,4,5,6,7], k = 3
@@ -35,10 +35,10 @@ public class Rotate {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
         rotate(nums, 3);
-        System.out.println(JSON.toJSONString(nums));
+        System.out.println(Arrays.toString(nums));
         System.out.println("====================================");
         int[] nums2 = new int[]{-1, -100, 3, 99};
         rotate(nums2, 2);
-        System.out.println(JSON.toJSONString(nums2));
+        System.out.println(Arrays.toString(nums2));
     }
 }

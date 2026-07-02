@@ -1,4 +1,4 @@
-package org.example.topinterview150;
+package org.example.common;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -8,21 +8,21 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    TreeNode() {
+    public TreeNode() {
     }
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
     }
 
+    @Override
     public String toString() {
-        //通过前序遍历将所有的节点的值拼接起来，使用逗号隔开
         StringBuilder sb = new StringBuilder();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(this);
@@ -37,5 +37,13 @@ public class TreeNode {
             }
         }
         return sb.toString();
+    }
+
+    public static void printInOrder(TreeNode node) {
+        if (node != null) {
+            printInOrder(node.left);
+            System.out.print(node.val + " ");
+            printInOrder(node.right);
+        }
     }
 }

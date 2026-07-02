@@ -1,5 +1,6 @@
 package org.example.topinterview150;
 
+import org.example.common.TreeNode;
 
 public class MaxDepth {
     public int maxDepth(TreeNode node) {

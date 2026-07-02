@@ -1,5 +1,6 @@
 package org.example.test;
 
+import org.example.common.ListNode;
 
 public class ReverseBetween {
 
@@ -50,9 +51,10 @@ public class ReverseBetween {
 
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
-        System.out.println(reverseBetween(listNode, 2, 4));
-        ListNode listNode1 = new ListNode(5);
-        System.out.println(reverseBetween(listNode1, 1, 1));
+//        System.out.println(reverseBetween(listNode, 2, 4));
+//        ListNode listNode1 = new ListNode(5);
+//        System.out.println(reverseBetween(listNode1, 1, 1));
+        System.out.println(reverseList3(listNode));
     }
 
 
@@ -107,4 +109,18 @@ public class ReverseBetween {
     }
 
 
+    public static ListNode reverseList3(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
 }
