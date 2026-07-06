@@ -197,20 +197,40 @@ public class HeapAlgorithms {
         return dummy.next;
     }
 
-    //=================数据流的中位数====数据流的中位数==============//
+    //=================数据流的中位数====有序整数列表中的中间值==============//
     class MedianFinder {
+        // 最大堆：存较小的一半元素，堆顶 = 较小一半的最大值
+        private PriorityQueue<Integer> small;
+
+        // 最小堆：存较大的一半元素，堆顶 = 较大一半的最小值
+        private PriorityQueue<Integer> large;
 
         // 构造方法
         public MedianFinder() {
+            small = new PriorityQueue<>((a, b) -> Integer.compare(b, a)); // 最大堆
+            large = new PriorityQueue<>();                                // 最小堆（默认）
         }
 
         // 添加一个数
         public void addNum(int num) {
+            // 1. 先放入 small
+            small.offer(num);
+            // 2. 把 small 的最大值搬到 large，保证 small 所有值 <= large 所有值
+            large.offer(small.poll());
+            // 3. 如果 large 比 small 还多，把 large 的最小值搬回 small
+            //    保持 small.size() == large.size() 或 small.size() == large.size() + 1
+            if (large.size() > small.size()) {
+                small.offer(large.poll());
+            }
         }
 
         // 返回中位数
         public double findMedian() {
-            return 0;
+            if (small.size() > large.size()) {
+                return small.peek();
+            } else {
+                return (small.peek() + large.peek()) / 2.0;
+            }
         }
     }
 
