@@ -1,6 +1,11 @@
 package org.example._20260630;
 
+import sun.security.krb5.internal.PAData;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 回溯算法经典面试题（按难度分类，每类问题代表不同的回溯场景）
@@ -78,7 +83,33 @@ public class BtAlgorithms {
      * 输出：[[2,2,3],[7]]
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        return null;
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(candidates);
+        combinationSum_bt(res, new ArrayList<>(), candidates, target, 0, 0);
+        return res;
+    }
+
+    public void combinationSum_bt(List<List<Integer>> res, List<Integer> path
+            , int[] candidates, int target, int total, int start) {
+        if (total == target) {
+            res.add(new ArrayList<>(path));
+            return;
+        }
+        int need = target - total;
+        for (int i = start; i < candidates.length; i++) {
+            if (candidates[i] <= need) {
+                path.add(candidates[i]);
+                combinationSum_bt(res, path, candidates, target, total + candidates[i], i);
+                path.remove(path.size() - 1);
+            } else {
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{2, 3, 6, 7};
+        System.out.println(new BtAlgorithms().combinationSum(nums, 7));
     }
 
     /**
