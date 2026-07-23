@@ -452,8 +452,63 @@ public class BtAlgorithms {
      * ["..Q.","Q...","...Q",".Q.."]]
      */
     public List<List<String>> solveNQueens(int n) {
-        return null;
+        List<List<String>> res = new ArrayList<>();
+        char[][] board = new char[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                board[i][j] = '.';
+            }
+        }
+        solveNQueens_bt(res, 0, n, board);
+        return res;
     }
+
+    public void solveNQueens_bt(List<List<String>> res, int row, int n, char[][] board) {
+        if (row >= n) {
+            List<String> rowStr = new ArrayList<>();
+            for (char[] chars : board) {
+                rowStr.add(new String(chars));
+            }
+            res.add(rowStr);
+            return;
+        }
+        for (int i = 0; i < n; i++) {
+            if (!checkNQueen(board, row, i, n)) {
+                continue;
+            }
+            board[row][i] = 'Q';
+            solveNQueens_bt(res, row + 1, n, board);
+            board[row][i] = '.';
+        }
+    }
+
+    public boolean checkNQueen(char[][] board, int row, int col, int n) {
+        for (int i = 0; i < board.length; i++) {
+            if (board[i][col] == 'Q') {
+                return false;
+            }
+        }
+        int i = row;
+        int j = col;
+        while (i >= 0 && j >= 0) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+            i--;
+            j--;
+        }
+        i = row;
+        j = col;
+        while (i >= 0 && j < n) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+            i--;
+            j++;
+        }
+        return true;
+    }
+
 
     /**
      * 9. 解数独
@@ -518,5 +573,7 @@ public class BtAlgorithms {
         };
         String word = "ABCCEDAS";
         System.out.println(btAlgorithms.exist(board, word));
+
+        System.out.println(btAlgorithms.solveNQueens(4));
     }
 }
