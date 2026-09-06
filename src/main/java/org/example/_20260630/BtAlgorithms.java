@@ -330,10 +330,6 @@ public class BtAlgorithms {
         }
     }
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{2, 3, 6, 7};
-        System.out.println(new BtAlgorithms().combinationSum(nums, 7));
-    }
 
     /**
      * 6. 分割回文串
